@@ -6,10 +6,10 @@ function Movie(props){
     const moviePath = `http://www.themoviedb.org/movie/${props.movie.id}`;
 
     return(
-        <div className="container">
+        
         
 
-            <div className="col s3 center">
+            <div className="col s3 m5">
                 <a href={moviePath} target="_onBlank">
                     <img src={imagePath}/>
                 </a>
@@ -17,9 +17,9 @@ function Movie(props){
                    {props.movie.title}
                 </div>
             </div>
-        </div>
         
     )
 }
 
 export default Movie;
+

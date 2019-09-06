@@ -30,7 +30,11 @@ class MovieApp extends Component {
         return (
             <div>
                 <h1>This is a movie</h1>
+                <div className="container">
+                    <div className="row">
                 {movies}
+                </div>
+                </div>
             </div>
 
         )
